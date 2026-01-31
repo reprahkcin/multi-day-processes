@@ -1,0 +1,228 @@
+.preset-form {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.preset-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.preset-select,
+.date-input,
+.time-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.preset-select:focus,
+.date-input:focus,
+.time-input:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.1);
+}
+
+.preset-info {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.preset-info h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.preset-description {
+  color: #666;
+  margin: 0 0 15px 0;
+  line-height: 1.5;
+}
+
+.preset-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.metadata-item {
+  font-size: 14px;
+  color: #555;
+}
+
+.metadata-item strong {
+  color: #333;
+  text-transform: capitalize;
+}
+
+.preset-steps-summary {
+  font-size: 14px;
+  color: #666;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.separator {
+  margin: 0 10px;
+  color: #ccc;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.btn-preview,
+.btn-schedule {
+  flex: 1;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-preview {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.btn-preview:hover {
+  background: #bbdefb;
+}
+
+.btn-schedule {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-schedule:hover {
+  background: #45a049;
+}
+
+.schedule-preview {
+  background: white;
+  border: 2px solid #1976d2;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.schedule-preview h3 {
+  margin: 0 0 15px 0;
+  color: #1976d2;
+  font-size: 18px;
+}
+
+.preview-info {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.preview-info strong {
+  color: #333;
+  margin-right: 8px;
+}
+
+.preview-steps h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #1976d2, #64b5f6);
+}
+
+.timeline-step {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-marker {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 2px solid #1976d2;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1976d2;
+  z-index: 1;
+}
+
+.timeline-content {
+  flex: 1;
+  padding-bottom: 5px;
+}
+
+.timeline-step-name {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.alarm-icon {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.timeline-step-time {
+  font-size: 13px;
+  color: #666;
+}
+
+.duration {
+  color: #999;
+  font-style: italic;
+}
